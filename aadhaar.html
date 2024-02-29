@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aadhaar.css">
+
+</head>
+<body>
+    <img src="./img/uidai.png" alt="" id="udiai" width="300px">
+    <img src="./img/aadhaar.png" alt="" id="aadhaar" width="70px">
+    <h1>appointment for aadhaar enrolment</h1>
+    <fieldset> <legend> please enter the follwing details in order to book an appointment </legend>
+    <form>
+        <label>name:</label>
+        <input type="text" name="name" placeholder="name">
+        <label>E-mail:</label>
+        <input type="text" name="E-mail">
+        <label>mobile:</label>
+        <input type="text" name="mobile"> <br>
+        <input type="submit" value="submit"><br>
+    </fieldset>
+        <h1>select enrolment centre</h1>
+        <fieldset><legend>select enrolment centre</legend>
+        <label>state UI*</label>
+        <select class ="UI"name="UI">
+            <option value="maharashtra">maharashtra</option>
+            <option value="mumbai">mumbai</option>
+            <option value="tamil nadu">tamil nadu</option>
+            <option value="bengaluru">bengaluru</option>
+        </select><br>
+        <label>city*</label>
+        <select class="city"name="city">
+            <option value="maharashtra">maharashtra</option>
+            <option value="mumbai">mumbai</option>
+            <option value="tamil nadu">tamil nadu</option>
+            <option value="bengaluru">bengaluru</option> 
+        </select><br>
+        <label>enrolment centre*</label>
+        <select class="centre"name="centre">
+            <option value="unelveli near jtirunction">unelveli near jtirunction</option>
+            <option value="mumbai">mumbai</option>
+            <option value="tamil nadu">tamil nadu</option>
+            <option value="bengaluru">bengaluru</option>
+        </select>
+        <label>Area type:</label>
+        <input type="radio" name="area">
+        <label>urban</label>
+        <input type="radio" name="area">
+        <label>rural</label>
+        <label>locality</label>
+        <select id="locality"name="locality">
+            <option value="mumbai">mumbai</option>
+            <option value="tamil nadu">tamil nadu</option>
+            <option value="bengaluru">bengaluru</option>
+        </select>
+        <a href="https://uidai.gov.in/">check availability</a>
+    </fieldset>
+        <br>
+        <br>
+        <h1>select date and time for appointment</h1>
+        <fieldset><legend>select date and time for appointment</legend>
+        <label>date*</label>
+        <input type="date"><br>
+        <label>time*</label>
+        <input type="time">
+        </fieldset>
+        <input type="submit" value="submit">        
+     </form>
+</body>
+</html>
+
+
+

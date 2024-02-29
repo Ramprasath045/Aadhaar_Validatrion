@@ -1,0 +1,15 @@
+h1{
+    background-color: brown;
+    text-align: center;
+    color:white ;
+}
+
+#aadhaar{
+    float: right;
+}
+input{
+    margin-right: 10px;
+}
+select{
+    margin-top: 20px;
+}
